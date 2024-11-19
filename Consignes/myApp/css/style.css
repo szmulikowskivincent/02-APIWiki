@@ -38,3 +38,12 @@ body {
     display: none;
     text-align: center;
 }
+
+footer {
+    background-color: rgb(100, 97, 97);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin-block-start: 20px;
+
+}
