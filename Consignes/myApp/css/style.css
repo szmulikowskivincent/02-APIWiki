@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#searchForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-inline-size: 400px;
+    margin: auto;
+}
+
+#results {
+    margin-block-start: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.result-item {
+    margin-block-end: 10px;
+}
+
+.result-item a {
+    color: #0078d7;
+    text-decoration: none;
+}
+
+.result-item a:hover {
+    text-decoration: underline;
+}
+
+#loader {
+    display: none;
+    text-align: center;
+}

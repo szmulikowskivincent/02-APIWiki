@@ -1,0 +1,31 @@
+input,
+button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0078d7;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+#results {
+    max-inline-size: 600px;
+    margin: 20px auto;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
